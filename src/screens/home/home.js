@@ -7,7 +7,7 @@ import { one, two, four, five } from '../../images';
 import { Colors } from '../../constants';
 
 const Home = () => {
-  const colors = [one, two, one, four, five];
+  const colors = [five, two, four, four, five];
   return (
     <View style={{ flex: 1, backgroundColor: Colors.AppTheam }}>
       <SafeAreaView>
@@ -20,7 +20,7 @@ const Home = () => {
               data={colors}
               renderItem={({ item }) => (
                 <View style={styles.child}>
-                  <Image resizeMode='center' style={styles.child} source={item} />
+                  <Image resizeMode='contain' style={styles.child} source={item} />
                 </View>
               )}
             />

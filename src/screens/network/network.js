@@ -33,7 +33,7 @@ const Network = ({ getAllPost, setAppLoader, userAppLoadere, userPost }) => {
           <FlatList
             data={userPost}
             renderItem={renderItem}
-            keyExtractor={item => item.userId}
+            keyExtractor={item => Math.random()}
           />}
       </SafeAreaView>
     </View>

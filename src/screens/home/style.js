@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     child: {
-        width: 400,
+        width: 300,
         height: 200,
         justifyContent: 'center'
     },
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         textAlign: 'center'
     },
     swiperContainer: {
-        width: 400,
+        width: 300,
         height: 200,
         justifyContent: 'center',
         alignItems: 'center'

@@ -27,7 +27,7 @@ const LocalDb = ({ setLocalDummyData, userLocalData }) => {
         <FlatList
           data={userLocalData}
           renderItem={renderItem}
-          keyExtractor={item => item.userId}
+          keyExtractor={item => Math.random()}
         />
       </SafeAreaView>
     </View>
